@@ -1,0 +1,7 @@
+## Python
+
+Python is a high‑level, general‑purpose programming language created by Guido van Rossum and first released in 1991. It emphasizes readability with a clean, English‑like syntax and uses indentation instead of braces to define blocks. Python runs on all major platforms (Windows, macOS, Linux, Raspberry Pi) and supports multiple paradigms: procedural, object‑oriented, and functional programming. [w3schools](https://www.w3schools.com/Python/python_intro.asp)
+
+You use Python for web development, scripting, automation, data analysis, machine learning, and system tools. Its standard library covers file I/O, networking, concurrency, and more, which reduces dependency on external packages for common tasks. The broader ecosystem includes libraries such as Django and Flask for web applications, NumPy and Pandas for numerical computing and data manipulation, and Matplotlib for visualization. For machine learning and AI, Python dominates via frameworks like scikit‑learn, TensorFlow, and PyTorch. [datacamp](https://www.datacamp.com/blog/what-is-machine-learning)
+
+Python’s strengths are speed of development, ecosystem depth, and a very low barrier to entry. Its main trade‑offs are runtime performance versus lower‑level languages (C++, Rust) and, in very large codebases, the lack of static typing unless you enforce type hints and tooling. In practice, you reach for Python when you want to move fast in data‑heavy or automation‑heavy domains, and only abandon it when latency or memory constraints are truly tight.
