@@ -1,0 +1,40 @@
+ASSET INFORMATION
+----------------------
+Asset ID: SRV-VPN-001
+Hostname: vpn-gateway-01
+Type: Network Device
+Operating System: pfSense 2.7.2
+
+OWNERSHIP & LOCATION
+----------------------
+Department: Network Operations
+Owner: Network Team
+Location: Wellington Data Center
+Criticality: HIGH
+
+NETWORK INFORMATION
+----------------------
+IP Address: 10.0.1.20
+MAC Address: 00:0C:29:5A:3B:D1
+Internet Facing: Yes
+Status: Active
+Last Updated: 2026-02-25
+
+INSTALLED SOFTWARE
+----------------------
+
+1. Name: pfSense
+   Version: 2.7.2
+   Vendor: Netgate
+   Installed: 2023-12-10
+
+BACKUP STATUS
+----------------------
+Daily Config Backup
+
+SEARCH KEYWORDS
+----------------------
+Asset Type: Network Device
+Department: Network Operations
+Criticality Level: HIGH
+Installed Products: pfSense

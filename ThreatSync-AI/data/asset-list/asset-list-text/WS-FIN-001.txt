@@ -1,0 +1,57 @@
+ASSET INFORMATION
+----------------------
+Asset ID: WS-FIN-001
+Hostname: ws-finance-cfo
+Type: Workstation
+Operating System: Windows 11 Pro 23H2
+
+OWNERSHIP & LOCATION
+----------------------
+Department: Finance
+Owner: CFO
+Location: Wellington Office - Floor 3
+Criticality: CRITICAL
+
+NETWORK INFORMATION
+----------------------
+IP Address: 10.20.1.15
+MAC Address: 00:1B:44:11:3A:B7
+Internet Facing: No
+Status: Active
+Last Updated: 2026-02-20
+
+INSTALLED SOFTWARE
+----------------------
+
+1. Name: Microsoft Outlook
+   Version: 2019
+   Vendor: Microsoft
+   Full Version: 16.0.10392.20029
+   Installed: 2023-01-15
+   License: Office 365 E5
+
+2. Name: Microsoft Excel
+   Version: 2019
+   Vendor: Microsoft
+   Installed: 2023-01-15
+
+3. Name: Adobe Acrobat Pro
+   Version: 2023.006.20380
+   Vendor: Adobe
+   Installed: 2024-03-10
+
+COMPLIANCE FRAMEWORKS
+----------------------
+- PCI-DSS
+- SOX
+
+BACKUP STATUS
+----------------------
+Daily
+
+SEARCH KEYWORDS
+----------------------
+Asset Type: Workstation
+Department: Finance
+Criticality Level: CRITICAL
+Installed Products: Microsoft Outlook, Microsoft Excel, Adobe Acrobat Pro

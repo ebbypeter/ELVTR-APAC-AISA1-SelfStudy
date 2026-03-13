@@ -1,0 +1,40 @@
+ASSET INFORMATION
+----------------------
+Asset ID: SRV-CI-001
+Hostname: jenkins-master
+Type: Server
+Operating System: Ubuntu Linux 22.04 LTS
+
+OWNERSHIP & LOCATION
+----------------------
+Department: DevOps
+Owner: DevOps Team
+Location: AWS us-east-1 (Cloud)
+Criticality: HIGH
+
+NETWORK INFORMATION
+----------------------
+IP Address: 10.100.5.50
+MAC Address: N/A
+Internet Facing: No
+Status: Active
+Last Updated: 2026-02-20
+
+INSTALLED SOFTWARE
+----------------------
+
+1. Name: Jenkins
+   Version: 2.440
+   Vendor: CloudBees
+   Installed: 2024-01-15
+
+BACKUP STATUS
+----------------------
+Daily
+
+SEARCH KEYWORDS
+----------------------
+Asset Type: Server
+Department: DevOps
+Criticality Level: HIGH
+Installed Products: Jenkins

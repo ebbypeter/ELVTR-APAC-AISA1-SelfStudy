@@ -1,0 +1,751 @@
+{
+  "asset_database": {
+    "company": "Acme Corporation NZ",
+    "total_assets": 25,
+    "last_updated": "2026-02-27",
+    "compliance_frameworks": ["PCI-DSS", "SOC2", "GDPR", "HIPAA", "SOX"],
+    "assets": [
+      {
+        "asset_id": "WS-FIN-001",
+        "hostname": "ws-finance-cfo",
+        "asset_type": "Workstation",
+        "os": "Windows 11 Pro",
+        "os_version": "23H2",
+        "department": "Finance",
+        "location": "Wellington Office - Floor 3",
+        "owner": "CFO",
+        "criticality": "CRITICAL",
+        "ip_address": "10.20.1.15",
+        "mac_address": "00:1B:44:11:3A:B7",
+        "last_updated": "2026-02-20",
+        "status": "Active",
+        "installed_software": [
+          {
+            "name": "Microsoft Outlook",
+            "vendor": "Microsoft",
+            "version": "2019",
+            "full_version": "16.0.10392.20029",
+            "install_date": "2023-01-15",
+            "license": "Office 365 E5"
+          },
+          {
+            "name": "Microsoft Excel",
+            "vendor": "Microsoft",
+            "version": "2019",
+            "install_date": "2023-01-15"
+          },
+          {
+            "name": "Adobe Acrobat Pro",
+            "vendor": "Adobe",
+            "version": "2023.006.20380",
+            "install_date": "2024-03-10"
+          }
+        ],
+        "internet_facing": false,
+        "backup_status": "Daily",
+        "compliance_tags": ["PCI-DSS", "SOX"]
+      },
+      {
+        "asset_id": "WS-FIN-002",
+        "hostname": "ws-finance-01",
+        "asset_type": "Workstation",
+        "os": "Windows 11 Pro",
+        "os_version": "22H2",
+        "department": "Finance",
+        "location": "Wellington Office - Floor 3",
+        "owner": "Financial Analyst",
+        "criticality": "HIGH",
+        "ip_address": "10.20.1.16",
+        "mac_address": "00:1B:44:11:3A:B8",
+        "last_updated": "2026-02-18",
+        "status": "Active",
+        "installed_software": [
+          {
+            "name": "Microsoft Outlook",
+            "vendor": "Microsoft",
+            "version": "2019",
+            "install_date": "2023-02-01"
+          },
+          {
+            "name": "SAP ERP",
+            "vendor": "SAP",
+            "version": "S/4HANA 2021",
+            "install_date": "2023-06-10"
+          }
+        ],
+        "internet_facing": false,
+        "backup_status": "Daily",
+        "compliance_tags": ["PCI-DSS", "SOX"]
+      },
+      {
+        "asset_id": "WS-FIN-003",
+        "hostname": "ws-finance-02",
+        "asset_type": "Workstation",
+        "os": "Windows 11 Pro",
+        "os_version": "22H2",
+        "department": "Finance",
+        "location": "Wellington Office - Floor 3",
+        "owner": "Accounts Payable Manager",
+        "criticality": "HIGH",
+        "ip_address": "10.20.1.17",
+        "mac_address": "00:1B:44:11:3A:B9",
+        "last_updated": "2026-02-19",
+        "status": "Active",
+        "installed_software": [
+          {
+            "name": "Microsoft Outlook",
+            "vendor": "Microsoft",
+            "version": "2019",
+            "install_date": "2023-02-01"
+          }
+        ],
+        "internet_facing": false,
+        "backup_status": "Daily",
+        "compliance_tags": ["PCI-DSS"]
+      },
+      {
+        "asset_id": "WS-HR-001",
+        "hostname": "ws-hr-director",
+        "asset_type": "Workstation",
+        "os": "Windows 11 Pro",
+        "os_version": "23H2",
+        "department": "Human Resources",
+        "location": "Wellington Office - Floor 2",
+        "owner": "HR Director",
+        "criticality": "HIGH",
+        "ip_address": "10.20.2.10",
+        "mac_address": "00:1B:44:11:3B:C1",
+        "last_updated": "2026-02-21",
+        "status": "Active",
+        "installed_software": [
+          {
+            "name": "Microsoft Outlook",
+            "vendor": "Microsoft",
+            "version": "2021",
+            "install_date": "2024-01-10"
+          }
+        ],
+        "internet_facing": false,
+        "backup_status": "Daily",
+        "compliance_tags": ["HIPAA"]
+      },
+      {
+        "asset_id": "WS-HR-002",
+        "hostname": "ws-hr-01",
+        "asset_type": "Workstation",
+        "os": "Windows 10 Pro",
+        "os_version": "22H2",
+        "department": "Human Resources",
+        "location": "Wellington Office - Floor 2",
+        "owner": "HR Specialist",
+        "criticality": "MEDIUM",
+        "ip_address": "10.20.2.11",
+        "mac_address": "00:1B:44:11:3B:C2",
+        "last_updated": "2026-02-15",
+        "status": "Active",
+        "installed_software": [
+          {
+            "name": "Microsoft Outlook",
+            "vendor": "Microsoft",
+            "version": "2016",
+            "install_date": "2022-05-20"
+          }
+        ],
+        "internet_facing": false,
+        "backup_status": "Weekly",
+        "compliance_tags": ["HIPAA"]
+      },
+      {
+        "asset_id": "WS-SALES-001",
+        "hostname": "ws-sales-vp",
+        "asset_type": "Workstation",
+        "os": "macOS Sonoma",
+        "os_version": "14.3",
+        "department": "Sales",
+        "location": "Auckland Office",
+        "owner": "VP of Sales",
+        "criticality": "HIGH",
+        "ip_address": "10.30.1.20",
+        "mac_address": "A4:83:E7:2B:5C:D1",
+        "last_updated": "2026-02-22",
+        "status": "Active",
+        "installed_software": [
+          {
+            "name": "Microsoft Outlook",
+            "vendor": "Microsoft",
+            "version": "2021",
+            "install_date": "2023-08-15"
+          }
+        ],
+        "internet_facing": false,
+        "backup_status": "Daily",
+        "compliance_tags": []
+      },
+      {
+        "asset_id": "SRV-WEB-001",
+        "hostname": "web-prod-01",
+        "asset_type": "Server",
+        "os": "Ubuntu Linux",
+        "os_version": "22.04 LTS",
+        "department": "IT Operations",
+        "location": "AWS us-east-1 (Cloud)",
+        "owner": "DevOps Team",
+        "criticality": "CRITICAL",
+        "ip_address": "10.100.1.10",
+        "mac_address": "N/A",
+        "last_updated": "2026-02-25",
+        "status": "Active",
+        "installed_software": [
+          {
+            "name": "nginx",
+            "vendor": "NGINX Inc",
+            "version": "1.24.0",
+            "install_date": "2023-11-15",
+            "listening_ports": ["80", "443"]
+          },
+          {
+            "name": "Node.js",
+            "vendor": "OpenJS Foundation",
+            "version": "20.11.0",
+            "install_date": "2024-01-20"
+          }
+        ],
+        "internet_facing": true,
+        "backup_status": "Daily + Snapshot",
+        "compliance_tags": ["PCI-DSS", "SOC2"]
+      },
+      {
+        "asset_id": "SRV-WEB-002",
+        "hostname": "web-prod-02",
+        "asset_type": "Server",
+        "os": "Ubuntu Linux",
+        "os_version": "22.04 LTS",
+        "department": "IT Operations",
+        "location": "AWS us-east-1 (Cloud)",
+        "owner": "DevOps Team",
+        "criticality": "CRITICAL",
+        "ip_address": "10.100.1.11",
+        "mac_address": "N/A",
+        "last_updated": "2026-02-25",
+        "status": "Active",
+        "installed_software": [
+          {
+            "name": "Apache HTTP Server",
+            "vendor": "Apache Software Foundation",
+            "version": "2.4.58",
+            "install_date": "2023-10-10",
+            "listening_ports": ["80", "443"]
+          }
+        ],
+        "internet_facing": true,
+        "backup_status": "Daily + Snapshot",
+        "compliance_tags": ["PCI-DSS", "SOC2"]
+      },
+      {
+        "asset_id": "SRV-APP-001",
+        "hostname": "app-tomcat-01",
+        "asset_type": "Server",
+        "os": "Red Hat Enterprise Linux",
+        "os_version": "9.3",
+        "department": "IT Operations",
+        "location": "Wellington Data Center",
+        "owner": "Application Team",
+        "criticality": "CRITICAL",
+        "ip_address": "10.100.2.20",
+        "mac_address": "00:50:56:8A:2B:F1",
+        "last_updated": "2026-02-23",
+        "status": "Active",
+        "installed_software": [
+          {
+            "name": "Apache Tomcat",
+            "vendor": "Apache Software Foundation",
+            "version": "9.0.50",
+            "install_date": "2022-08-20",
+            "listening_ports": ["8080", "8443"]
+          }
+        ],
+        "internet_facing": false,
+        "backup_status": "Daily",
+        "compliance_tags": ["PCI-DSS"]
+      },
+      {
+        "asset_id": "SRV-APP-002",
+        "hostname": "app-tomcat-02",
+        "asset_type": "Server",
+        "os": "Red Hat Enterprise Linux",
+        "os_version": "9.3",
+        "department": "IT Operations",
+        "location": "Wellington Data Center",
+        "owner": "Application Team",
+        "criticality": "CRITICAL",
+        "ip_address": "10.100.2.21",
+        "mac_address": "00:50:56:8A:2B:F2",
+        "last_updated": "2026-02-23",
+        "status": "Active",
+        "installed_software": [
+          {
+            "name": "Apache Tomcat",
+            "vendor": "Apache Software Foundation",
+            "version": "9.0.65",
+            "install_date": "2023-05-10",
+            "listening_ports": ["8080", "8443"]
+          }
+        ],
+        "internet_facing": false,
+        "backup_status": "Daily",
+        "compliance_tags": ["PCI-DSS"]
+      },
+      {
+        "asset_id": "SRV-DB-001",
+        "hostname": "db-postgres-prod",
+        "asset_type": "Server",
+        "os": "Ubuntu Linux",
+        "os_version": "22.04 LTS",
+        "department": "IT Operations",
+        "location": "Wellington Data Center",
+        "owner": "Database Team",
+        "criticality": "CRITICAL",
+        "ip_address": "10.100.3.30",
+        "mac_address": "00:50:56:8A:2C:A1",
+        "last_updated": "2026-02-24",
+        "status": "Active",
+        "installed_software": [
+          {
+            "name": "PostgreSQL",
+            "vendor": "PostgreSQL Global Development Group",
+            "version": "15.5",
+            "install_date": "2023-12-01",
+            "listening_ports": ["5432"]
+          }
+        ],
+        "internet_facing": false,
+        "backup_status": "Hourly + Daily Snapshot",
+        "compliance_tags": ["PCI-DSS", "SOC2", "GDPR"]
+      },
+      {
+        "asset_id": "SRV-MAIL-001",
+        "hostname": "mail-exchange-01",
+        "asset_type": "Server",
+        "os": "Windows Server 2019",
+        "os_version": "1809",
+        "department": "IT Operations",
+        "location": "Wellington Data Center",
+        "owner": "Infrastructure Team",
+        "criticality": "CRITICAL",
+        "ip_address": "10.100.4.40",
+        "mac_address": "00:50:56:8A:2D:B1",
+        "last_updated": "2026-02-22",
+        "status": "Active",
+        "installed_software": [
+          {
+            "name": "Microsoft Exchange Server",
+            "vendor": "Microsoft",
+            "version": "2019 CU14",
+            "install_date": "2022-03-10",
+            "listening_ports": ["25", "587", "443"]
+          }
+        ],
+        "internet_facing": true,
+        "backup_status": "Daily",
+        "compliance_tags": ["HIPAA"]
+      },
+      {
+        "asset_id": "SRV-CI-001",
+        "hostname": "jenkins-master",
+        "asset_type": "Server",
+        "os": "Ubuntu Linux",
+        "os_version": "22.04 LTS",
+        "department": "DevOps",
+        "location": "AWS us-east-1 (Cloud)",
+        "owner": "DevOps Team",
+        "criticality": "HIGH",
+        "ip_address": "10.100.5.50",
+        "mac_address": "N/A",
+        "last_updated": "2026-02-20",
+        "status": "Active",
+        "installed_software": [
+          {
+            "name": "Jenkins",
+            "vendor": "CloudBees",
+            "version": "2.440",
+            "install_date": "2024-01-15",
+            "listening_ports": ["8080"]
+          }
+        ],
+        "internet_facing": false,
+        "backup_status": "Daily",
+        "compliance_tags": []
+      },
+      {
+        "asset_id": "NET-FW-001",
+        "hostname": "fortinet-fw-main",
+        "asset_type": "Network Device",
+        "os": "FortiOS",
+        "os_version": "7.0.12",
+        "department": "Network Operations",
+        "location": "Wellington Data Center - DMZ",
+        "owner": "Network Team",
+        "criticality": "CRITICAL",
+        "ip_address": "10.0.0.1",
+        "mac_address": "00:09:0F:09:00:01",
+        "last_updated": "2026-02-26",
+        "status": "Active",
+        "installed_software": [
+          {
+            "name": "FortiOS",
+            "vendor": "Fortinet",
+            "version": "7.0.12",
+            "install_date": "2023-06-15"
+          }
+        ],
+        "internet_facing": true,
+        "backup_status": "Daily Config Backup",
+        "compliance_tags": ["PCI-DSS", "SOC2"]
+      },
+      {
+        "asset_id": "NET-FW-002",
+        "hostname": "fortinet-fw-backup",
+        "asset_type": "Network Device",
+        "os": "FortiProxy",
+        "os_version": "7.0.14",
+        "department": "Network Operations",
+        "location": "Auckland Office",
+        "owner": "Network Team",
+        "criticality": "HIGH",
+        "ip_address": "10.0.0.2",
+        "mac_address": "00:09:0F:09:00:02",
+        "last_updated": "2026-02-26",
+        "status": "Active",
+        "installed_software": [
+          {
+            "name": "FortiProxy",
+            "vendor": "Fortinet",
+            "version": "7.0.14",
+            "install_date": "2024-01-20"
+          }
+        ],
+        "internet_facing": true,
+        "backup_status": "Daily Config Backup",
+        "compliance_tags": ["PCI-DSS"]
+      },
+      {
+        "asset_id": "WS-CEO-001",
+        "hostname": "ws-executive-ceo",
+        "asset_type": "Workstation",
+        "os": "Windows 11 Pro",
+        "os_version": "23H2",
+        "department": "Executive",
+        "location": "Wellington Office - Floor 5",
+        "owner": "CEO",
+        "criticality": "CRITICAL",
+        "ip_address": "10.10.1.1",
+        "mac_address": "00:1B:44:11:3E:F1",
+        "last_updated": "2026-02-27",
+        "status": "Active",
+        "installed_software": [
+          {
+            "name": "Microsoft Outlook",
+            "vendor": "Microsoft",
+            "version": "2021",
+            "install_date": "2024-01-15"
+          }
+        ],
+        "internet_facing": false,
+        "backup_status": "Daily",
+        "compliance_tags": ["Executive Protection"]
+      },
+      {
+        "asset_id": "WS-CTO-001",
+        "hostname": "ws-executive-cto",
+        "asset_type": "Workstation",
+        "os": "macOS Sonoma",
+        "os_version": "14.3.1",
+        "department": "Executive",
+        "location": "Wellington Office - Floor 5",
+        "owner": "CTO",
+        "criticality": "CRITICAL",
+        "ip_address": "10.10.1.2",
+        "mac_address": "A4:83:E7:2B:5E:F2",
+        "last_updated": "2026-02-27",
+        "status": "Active",
+        "installed_software": [
+          {
+            "name": "Microsoft Outlook",
+            "vendor": "Microsoft",
+            "version": "2021",
+            "install_date": "2024-01-15"
+          }
+        ],
+        "internet_facing": false,
+        "backup_status": "Daily",
+        "compliance_tags": ["Executive Protection"]
+      },
+      {
+        "asset_id": "SRV-REPO-001",
+        "hostname": "gitlab-server",
+        "asset_type": "Server",
+        "os": "Ubuntu Linux",
+        "os_version": "22.04 LTS",
+        "department": "DevOps",
+        "location": "AWS us-east-1 (Cloud)",
+        "owner": "DevOps Team",
+        "criticality": "HIGH",
+        "ip_address": "10.100.6.60",
+        "mac_address": "N/A",
+        "last_updated": "2026-02-24",
+        "status": "Active",
+        "installed_software": [
+          {
+            "name": "GitLab",
+            "vendor": "GitLab Inc",
+            "version": "16.8.1",
+            "install_date": "2024-01-20",
+            "listening_ports": ["443"]
+          }
+        ],
+        "internet_facing": false,
+        "backup_status": "Daily + Snapshot",
+        "compliance_tags": []
+      },
+      {
+        "asset_id": "SRV-MON-001",
+        "hostname": "prometheus-monitoring",
+        "asset_type": "Server",
+        "os": "Ubuntu Linux",
+        "os_version": "22.04 LTS",
+        "department": "IT Operations",
+        "location": "AWS us-east-1 (Cloud)",
+        "owner": "SRE Team",
+        "criticality": "MEDIUM",
+        "ip_address": "10.100.7.70",
+        "mac_address": "N/A",
+        "last_updated": "2026-02-25",
+        "status": "Active",
+        "installed_software": [
+          {
+            "name": "Prometheus",
+            "vendor": "Prometheus",
+            "version": "2.49.1",
+            "install_date": "2024-01-10",
+            "listening_ports": ["9090"]
+          },
+          {
+            "name": "Grafana",
+            "vendor": "Grafana Labs",
+            "version": "10.3.1",
+            "install_date": "2024-01-10",
+            "listening_ports": ["3000"]
+          }
+        ],
+        "internet_facing": false,
+        "backup_status": "Weekly",
+        "compliance_tags": []
+      },
+      {
+        "asset_id": "WS-LEGAL-001",
+        "hostname": "ws-legal-counsel",
+        "asset_type": "Workstation",
+        "os": "Windows 11 Pro",
+        "os_version": "23H2",
+        "department": "Legal",
+        "location": "Wellington Office - Floor 4",
+        "owner": "General Counsel",
+        "criticality": "HIGH",
+        "ip_address": "10.20.4.20",
+        "mac_address": "00:1B:44:11:3D:E1",
+        "last_updated": "2026-02-26",
+        "status": "Active",
+        "installed_software": [
+          {
+            "name": "Microsoft Outlook",
+            "vendor": "Microsoft",
+            "version": "2021",
+            "install_date": "2024-01-15"
+          }
+        ],
+        "internet_facing": false,
+        "backup_status": "Daily",
+        "compliance_tags": ["Legal Hold"]
+      },
+      {
+        "asset_id": "SRV-VPN-001",
+        "hostname": "vpn-gateway-01",
+        "asset_type": "Network Device",
+        "os": "pfSense",
+        "os_version": "2.7.2",
+        "department": "Network Operations",
+        "location": "Wellington Data Center",
+        "owner": "Network Team",
+        "criticality": "HIGH",
+        "ip_address": "10.0.1.20",
+        "mac_address": "00:0C:29:5A:3B:D1",
+        "last_updated": "2026-02-25",
+        "status": "Active",
+        "installed_software": [
+          {
+            "name": "pfSense",
+            "vendor": "Netgate",
+            "version": "2.7.2",
+            "install_date": "2023-12-10"
+          }
+        ],
+        "internet_facing": true,
+        "backup_status": "Daily Config Backup",
+        "compliance_tags": []
+      },
+      {
+        "asset_id": "SRV-BACKUP-001",
+        "hostname": "backup-veeam-01",
+        "asset_type": "Server",
+        "os": "Windows Server 2022",
+        "os_version": "21H2",
+        "department": "IT Operations",
+        "location": "Wellington Data Center",
+        "owner": "Infrastructure Team",
+        "criticality": "HIGH",
+        "ip_address": "10.100.8.80",
+        "mac_address": "00:50:56:8A:2E:C1",
+        "last_updated": "2026-02-23",
+        "status": "Active",
+        "installed_software": [
+          {
+            "name": "Veeam Backup & Replication",
+            "vendor": "Veeam",
+            "version": "12.1.2.172",
+            "install_date": "2024-01-05"
+          }
+        ],
+        "internet_facing": false,
+        "backup_status": "N/A (Backup Server)",
+        "compliance_tags": ["DR", "GDPR"]
+      },
+      {
+        "asset_id": "WS-MKT-001",
+        "hostname": "ws-marketing-01",
+        "asset_type": "Workstation",
+        "os": "macOS Sonoma",
+        "os_version": "14.3",
+        "department": "Marketing",
+        "location": "Auckland Office",
+        "owner": "Marketing Manager",
+        "criticality": "MEDIUM",
+        "ip_address": "10.30.2.30",
+        "mac_address": "A4:83:E7:2B:5F:M1",
+        "last_updated": "2026-02-22",
+        "status": "Active",
+        "installed_software": [
+          {
+            "name": "Adobe Creative Cloud",
+            "vendor": "Adobe",
+            "version": "2024",
+            "install_date": "2024-01-10"
+          },
+          {
+            "name": "Google Chrome",
+            "vendor": "Google",
+            "version": "122.0.6261.94",
+            "install_date": "2024-02-15"
+          }
+        ],
+        "internet_facing": false,
+        "backup_status": "Weekly",
+        "compliance_tags": []
+      },
+      {
+        "asset_id": "SRV-DNS-001",
+        "hostname": "dns-primary",
+        "asset_type": "Server",
+        "os": "Ubuntu Linux",
+        "os_version": "22.04 LTS",
+        "department": "Network Operations",
+        "location": "Wellington Data Center",
+        "owner": "Network Team",
+        "criticality": "CRITICAL",
+        "ip_address": "10.0.2.10",
+        "mac_address": "00:50:56:8A:2F:D1",
+        "last_updated": "2026-02-26",
+        "status": "Active",
+        "installed_software": [
+          {
+            "name": "BIND9",
+            "vendor": "ISC",
+            "version": "9.18.24",
+            "install_date": "2024-01-15",
+            "listening_ports": ["53"]
+          }
+        ],
+        "internet_facing": false,
+        "backup_status": "Daily Config Backup",
+        "compliance_tags": []
+      },
+      {
+        "asset_id": "WS-IT-001",
+        "hostname": "ws-sysadmin-01",
+        "asset_type": "Workstation",
+        "os": "Windows 11 Pro",
+        "os_version": "23H2",
+        "department": "IT Operations",
+        "location": "Wellington Office - Floor 1",
+        "owner": "Systems Administrator",
+        "criticality": "MEDIUM",
+        "ip_address": "10.40.1.50",
+        "mac_address": "00:1B:44:11:3F:S1",
+        "last_updated": "2026-02-27",
+        "status": "Active",
+        "installed_software": [
+          {
+            "name": "Microsoft Outlook",
+            "vendor": "Microsoft",
+            "version": "2021",
+            "install_date": "2024-01-15"
+          },
+          {
+            "name": "PowerShell",
+            "vendor": "Microsoft",
+            "version": "7.4.1",
+            "install_date": "2024-02-01"
+          },
+          {
+            "name": "PuTTY",
+            "vendor": "Simon Tatham",
+            "version": "0.80",
+            "install_date": "2024-01-10"
+          }
+        ],
+        "internet_facing": false,
+        "backup_status": "Weekly",
+        "compliance_tags": []
+      }
+    ]
+  },
+  "summary": {
+    "total_workstations": 12,
+    "total_servers": 11,
+    "total_network_devices": 2,
+    "by_criticality": {
+      "CRITICAL": 11,
+      "HIGH": 9,
+      "MEDIUM": 5
+    },
+    "by_department": {
+      "Finance": 3,
+      "Human Resources": 2,
+      "Sales": 1,
+      "IT Operations": 9,
+      "DevOps": 3,
+      "Network Operations": 4,
+      "Executive": 2,
+      "Legal": 1
+    },
+    "vulnerable_software_counts": {
+      "Microsoft Outlook 2019": 3,
+      "Microsoft Outlook 2016": 1,
+      "Microsoft Outlook 2021": 5,
+      "Apache Tomcat 9.0.x": 2,
+      "FortiOS 7.0.x": 1,
+      "FortiProxy 7.0.x": 1,
+      "Jenkins 2.440": 1,
+      "Microsoft Exchange Server 2019": 1
+    }
+  }
+}

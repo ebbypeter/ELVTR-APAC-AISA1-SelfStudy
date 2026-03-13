@@ -1,0 +1,44 @@
+ASSET INFORMATION
+----------------------
+Asset ID: WS-LEGAL-001
+Hostname: ws-legal-counsel
+Type: Workstation
+Operating System: Windows 11 Pro 23H2
+
+OWNERSHIP & LOCATION
+----------------------
+Department: Legal
+Owner: General Counsel
+Location: Wellington Office - Floor 4
+Criticality: HIGH
+
+NETWORK INFORMATION
+----------------------
+IP Address: 10.20.4.20
+MAC Address: 00:1B:44:11:3D:E1
+Internet Facing: No
+Status: Active
+Last Updated: 2026-02-26
+
+INSTALLED SOFTWARE
+----------------------
+
+1. Name: Microsoft Outlook
+   Version: 2021
+   Vendor: Microsoft
+   Installed: 2024-01-15
+
+COMPLIANCE FRAMEWORKS
+----------------------
+- Legal Hold
+
+BACKUP STATUS
+----------------------
+Daily
+
+SEARCH KEYWORDS
+----------------------
+Asset Type: Workstation
+Department: Legal
+Criticality Level: HIGH
+Installed Products: Microsoft Outlook

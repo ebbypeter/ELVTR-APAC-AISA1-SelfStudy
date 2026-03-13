@@ -1,0 +1,44 @@
+ASSET INFORMATION
+----------------------
+Asset ID: WS-HR-002
+Hostname: ws-hr-01
+Type: Workstation
+Operating System: Windows 10 Pro 22H2
+
+OWNERSHIP & LOCATION
+----------------------
+Department: Human Resources
+Owner: HR Specialist
+Location: Wellington Office - Floor 2
+Criticality: MEDIUM
+
+NETWORK INFORMATION
+----------------------
+IP Address: 10.20.2.11
+MAC Address: 00:1B:44:11:3B:C2
+Internet Facing: No
+Status: Active
+Last Updated: 2026-02-15
+
+INSTALLED SOFTWARE
+----------------------
+
+1. Name: Microsoft Outlook
+   Version: 2016
+   Vendor: Microsoft
+   Installed: 2022-05-20
+
+COMPLIANCE FRAMEWORKS
+----------------------
+- HIPAA
+
+BACKUP STATUS
+----------------------
+Weekly
+
+SEARCH KEYWORDS
+----------------------
+Asset Type: Workstation
+Department: Human Resources
+Criticality Level: MEDIUM
+Installed Products: Microsoft Outlook

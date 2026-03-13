@@ -1,0 +1,44 @@
+ASSET INFORMATION
+----------------------
+Asset ID: WS-CTO-001
+Hostname: ws-executive-cto
+Type: Workstation
+Operating System: macOS Sonoma 14.3.1
+
+OWNERSHIP & LOCATION
+----------------------
+Department: Executive
+Owner: CTO
+Location: Wellington Office - Floor 5
+Criticality: CRITICAL
+
+NETWORK INFORMATION
+----------------------
+IP Address: 10.10.1.2
+MAC Address: A4:83:E7:2B:5E:F2
+Internet Facing: No
+Status: Active
+Last Updated: 2026-02-27
+
+INSTALLED SOFTWARE
+----------------------
+
+1. Name: Microsoft Outlook
+   Version: 2021
+   Vendor: Microsoft
+   Installed: 2024-01-15
+
+COMPLIANCE FRAMEWORKS
+----------------------
+- Executive Protection
+
+BACKUP STATUS
+----------------------
+Daily
+
+SEARCH KEYWORDS
+----------------------
+Asset Type: Workstation
+Department: Executive
+Criticality Level: CRITICAL
+Installed Products: Microsoft Outlook

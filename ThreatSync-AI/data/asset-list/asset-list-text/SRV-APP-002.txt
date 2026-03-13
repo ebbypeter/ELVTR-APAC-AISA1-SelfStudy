@@ -1,0 +1,44 @@
+ASSET INFORMATION
+----------------------
+Asset ID: SRV-APP-002
+Hostname: app-tomcat-02
+Type: Server
+Operating System: Red Hat Enterprise Linux 9.3
+
+OWNERSHIP & LOCATION
+----------------------
+Department: IT Operations
+Owner: Application Team
+Location: Wellington Data Center
+Criticality: CRITICAL
+
+NETWORK INFORMATION
+----------------------
+IP Address: 10.100.2.21
+MAC Address: 00:50:56:8A:2B:F2
+Internet Facing: No
+Status: Active
+Last Updated: 2026-02-23
+
+INSTALLED SOFTWARE
+----------------------
+
+1. Name: Apache Tomcat
+   Version: 9.0.65
+   Vendor: Apache Software Foundation
+   Installed: 2023-05-10
+
+COMPLIANCE FRAMEWORKS
+----------------------
+- PCI-DSS
+
+BACKUP STATUS
+----------------------
+Daily
+
+SEARCH KEYWORDS
+----------------------
+Asset Type: Server
+Department: IT Operations
+Criticality Level: CRITICAL
+Installed Products: Apache Tomcat

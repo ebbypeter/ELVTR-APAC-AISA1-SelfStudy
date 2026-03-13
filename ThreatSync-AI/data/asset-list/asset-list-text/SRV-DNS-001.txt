@@ -1,0 +1,40 @@
+ASSET INFORMATION
+----------------------
+Asset ID: SRV-DNS-001
+Hostname: dns-primary
+Type: Server
+Operating System: Ubuntu Linux 22.04 LTS
+
+OWNERSHIP & LOCATION
+----------------------
+Department: Network Operations
+Owner: Network Team
+Location: Wellington Data Center
+Criticality: CRITICAL
+
+NETWORK INFORMATION
+----------------------
+IP Address: 10.0.2.10
+MAC Address: 00:50:56:8A:2F:D1
+Internet Facing: No
+Status: Active
+Last Updated: 2026-02-26
+
+INSTALLED SOFTWARE
+----------------------
+
+1. Name: BIND9
+   Version: 9.18.24
+   Vendor: ISC
+   Installed: 2024-01-15
+
+BACKUP STATUS
+----------------------
+Daily Config Backup
+
+SEARCH KEYWORDS
+----------------------
+Asset Type: Server
+Department: Network Operations
+Criticality Level: CRITICAL
+Installed Products: BIND9

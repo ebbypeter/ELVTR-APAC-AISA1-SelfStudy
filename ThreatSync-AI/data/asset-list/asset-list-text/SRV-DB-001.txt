@@ -1,0 +1,46 @@
+ASSET INFORMATION
+----------------------
+Asset ID: SRV-DB-001
+Hostname: db-postgres-prod
+Type: Server
+Operating System: Ubuntu Linux 22.04 LTS
+
+OWNERSHIP & LOCATION
+----------------------
+Department: IT Operations
+Owner: Database Team
+Location: Wellington Data Center
+Criticality: CRITICAL
+
+NETWORK INFORMATION
+----------------------
+IP Address: 10.100.3.30
+MAC Address: 00:50:56:8A:2C:A1
+Internet Facing: No
+Status: Active
+Last Updated: 2026-02-24
+
+INSTALLED SOFTWARE
+----------------------
+
+1. Name: PostgreSQL
+   Version: 15.5
+   Vendor: PostgreSQL Global Development Group
+   Installed: 2023-12-01
+
+COMPLIANCE FRAMEWORKS
+----------------------
+- PCI-DSS
+- SOC2
+- GDPR
+
+BACKUP STATUS
+----------------------
+Hourly + Daily Snapshot
+
+SEARCH KEYWORDS
+----------------------
+Asset Type: Server
+Department: IT Operations
+Criticality Level: CRITICAL
+Installed Products: PostgreSQL

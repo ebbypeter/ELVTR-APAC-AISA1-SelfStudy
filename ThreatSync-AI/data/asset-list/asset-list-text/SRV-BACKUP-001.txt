@@ -1,0 +1,45 @@
+ASSET INFORMATION
+----------------------
+Asset ID: SRV-BACKUP-001
+Hostname: backup-veeam-01
+Type: Server
+Operating System: Windows Server 2022 21H2
+
+OWNERSHIP & LOCATION
+----------------------
+Department: IT Operations
+Owner: Infrastructure Team
+Location: Wellington Data Center
+Criticality: HIGH
+
+NETWORK INFORMATION
+----------------------
+IP Address: 10.100.8.80
+MAC Address: 00:50:56:8A:2E:C1
+Internet Facing: No
+Status: Active
+Last Updated: 2026-02-23
+
+INSTALLED SOFTWARE
+----------------------
+
+1. Name: Veeam Backup & Replication
+   Version: 12.1.2.172
+   Vendor: Veeam
+   Installed: 2024-01-05
+
+COMPLIANCE FRAMEWORKS
+----------------------
+- DR
+- GDPR
+
+BACKUP STATUS
+----------------------
+N/A (Backup Server)
+
+SEARCH KEYWORDS
+----------------------
+Asset Type: Server
+Department: IT Operations
+Criticality Level: HIGH
+Installed Products: Veeam Backup & Replication

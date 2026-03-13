@@ -1,0 +1,44 @@
+ASSET INFORMATION
+----------------------
+Asset ID: WS-HR-001
+Hostname: ws-hr-director
+Type: Workstation
+Operating System: Windows 11 Pro 23H2
+
+OWNERSHIP & LOCATION
+----------------------
+Department: Human Resources
+Owner: HR Director
+Location: Wellington Office - Floor 2
+Criticality: HIGH
+
+NETWORK INFORMATION
+----------------------
+IP Address: 10.20.2.10
+MAC Address: 00:1B:44:11:3B:C1
+Internet Facing: No
+Status: Active
+Last Updated: 2026-02-21
+
+INSTALLED SOFTWARE
+----------------------
+
+1. Name: Microsoft Outlook
+   Version: 2021
+   Vendor: Microsoft
+   Installed: 2024-01-10
+
+COMPLIANCE FRAMEWORKS
+----------------------
+- HIPAA
+
+BACKUP STATUS
+----------------------
+Daily
+
+SEARCH KEYWORDS
+----------------------
+Asset Type: Workstation
+Department: Human Resources
+Criticality Level: HIGH
+Installed Products: Microsoft Outlook

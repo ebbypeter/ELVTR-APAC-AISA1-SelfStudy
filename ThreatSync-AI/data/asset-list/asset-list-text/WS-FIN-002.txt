@@ -1,0 +1,50 @@
+ASSET INFORMATION
+----------------------
+Asset ID: WS-FIN-002
+Hostname: ws-finance-01
+Type: Workstation
+Operating System: Windows 11 Pro 22H2
+
+OWNERSHIP & LOCATION
+----------------------
+Department: Finance
+Owner: Financial Analyst
+Location: Wellington Office - Floor 3
+Criticality: HIGH
+
+NETWORK INFORMATION
+----------------------
+IP Address: 10.20.1.16
+MAC Address: 00:1B:44:11:3A:B8
+Internet Facing: No
+Status: Active
+Last Updated: 2026-02-18
+
+INSTALLED SOFTWARE
+----------------------
+
+1. Name: Microsoft Outlook
+   Version: 2019
+   Vendor: Microsoft
+   Installed: 2023-02-01
+
+2. Name: SAP ERP
+   Version: S/4HANA 2021
+   Vendor: SAP
+   Installed: 2023-06-10
+
+COMPLIANCE FRAMEWORKS
+----------------------
+- PCI-DSS
+- SOX
+
+BACKUP STATUS
+----------------------
+Daily
+
+SEARCH KEYWORDS
+----------------------
+Asset Type: Workstation
+Department: Finance
+Criticality Level: HIGH
+Installed Products: Microsoft Outlook, SAP ERP

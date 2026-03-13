@@ -1,0 +1,45 @@
+ASSET INFORMATION
+----------------------
+Asset ID: SRV-WEB-002
+Hostname: web-prod-02
+Type: Server
+Operating System: Ubuntu Linux 22.04 LTS
+
+OWNERSHIP & LOCATION
+----------------------
+Department: IT Operations
+Owner: DevOps Team
+Location: AWS us-east-1 (Cloud)
+Criticality: CRITICAL
+
+NETWORK INFORMATION
+----------------------
+IP Address: 10.100.1.11
+MAC Address: N/A
+Internet Facing: Yes
+Status: Active
+Last Updated: 2026-02-25
+
+INSTALLED SOFTWARE
+----------------------
+
+1. Name: Apache HTTP Server
+   Version: 2.4.58
+   Vendor: Apache Software Foundation
+   Installed: 2023-10-10
+
+COMPLIANCE FRAMEWORKS
+----------------------
+- PCI-DSS
+- SOC2
+
+BACKUP STATUS
+----------------------
+Daily + Snapshot
+
+SEARCH KEYWORDS
+----------------------
+Asset Type: Server
+Department: IT Operations
+Criticality Level: CRITICAL
+Installed Products: Apache HTTP Server

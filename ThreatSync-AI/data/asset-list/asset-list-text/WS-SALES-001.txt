@@ -1,0 +1,40 @@
+ASSET INFORMATION
+----------------------
+Asset ID: WS-SALES-001
+Hostname: ws-sales-vp
+Type: Workstation
+Operating System: macOS Sonoma 14.3
+
+OWNERSHIP & LOCATION
+----------------------
+Department: Sales
+Owner: VP of Sales
+Location: Auckland Office
+Criticality: HIGH
+
+NETWORK INFORMATION
+----------------------
+IP Address: 10.30.1.20
+MAC Address: A4:83:E7:2B:5C:D1
+Internet Facing: No
+Status: Active
+Last Updated: 2026-02-22
+
+INSTALLED SOFTWARE
+----------------------
+
+1. Name: Microsoft Outlook
+   Version: 2021
+   Vendor: Microsoft
+   Installed: 2023-08-15
+
+BACKUP STATUS
+----------------------
+Daily
+
+SEARCH KEYWORDS
+----------------------
+Asset Type: Workstation
+Department: Sales
+Criticality Level: HIGH
+Installed Products: Microsoft Outlook

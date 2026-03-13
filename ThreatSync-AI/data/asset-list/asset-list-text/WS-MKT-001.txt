@@ -1,0 +1,45 @@
+ASSET INFORMATION
+----------------------
+Asset ID: WS-MKT-001
+Hostname: ws-marketing-01
+Type: Workstation
+Operating System: macOS Sonoma 14.3
+
+OWNERSHIP & LOCATION
+----------------------
+Department: Marketing
+Owner: Marketing Manager
+Location: Auckland Office
+Criticality: MEDIUM
+
+NETWORK INFORMATION
+----------------------
+IP Address: 10.30.2.30
+MAC Address: A4:83:E7:2B:5F:M1
+Internet Facing: No
+Status: Active
+Last Updated: 2026-02-22
+
+INSTALLED SOFTWARE
+----------------------
+
+1. Name: Adobe Creative Cloud
+   Version: 2024
+   Vendor: Adobe
+   Installed: 2024-01-10
+
+2. Name: Google Chrome
+   Version: 122.0.6261.94
+   Vendor: Google
+   Installed: 2024-02-15
+
+BACKUP STATUS
+----------------------
+Weekly
+
+SEARCH KEYWORDS
+----------------------
+Asset Type: Workstation
+Department: Marketing
+Criticality Level: MEDIUM
+Installed Products: Adobe Creative Cloud, Google Chrome

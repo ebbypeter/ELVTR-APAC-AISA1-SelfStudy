@@ -1,0 +1,50 @@
+ASSET INFORMATION
+----------------------
+Asset ID: WS-IT-001
+Hostname: ws-sysadmin-01
+Type: Workstation
+Operating System: Windows 11 Pro 23H2
+
+OWNERSHIP & LOCATION
+----------------------
+Department: IT Operations
+Owner: Systems Administrator
+Location: Wellington Office - Floor 1
+Criticality: MEDIUM
+
+NETWORK INFORMATION
+----------------------
+IP Address: 10.40.1.50
+MAC Address: 00:1B:44:11:3F:S1
+Internet Facing: No
+Status: Active
+Last Updated: 2026-02-27
+
+INSTALLED SOFTWARE
+----------------------
+
+1. Name: Microsoft Outlook
+   Version: 2021
+   Vendor: Microsoft
+   Installed: 2024-01-15
+
+2. Name: PowerShell
+   Version: 7.4.1
+   Vendor: Microsoft
+   Installed: 2024-02-01
+
+3. Name: PuTTY
+   Version: 0.80
+   Vendor: Simon Tatham
+   Installed: 2024-01-10
+
+BACKUP STATUS
+----------------------
+Weekly
+
+SEARCH KEYWORDS
+----------------------
+Asset Type: Workstation
+Department: IT Operations
+Criticality Level: MEDIUM
+Installed Products: Microsoft Outlook, PowerShell, PuTTY

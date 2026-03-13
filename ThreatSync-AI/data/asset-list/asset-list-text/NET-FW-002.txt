@@ -1,0 +1,44 @@
+ASSET INFORMATION
+----------------------
+Asset ID: NET-FW-002
+Hostname: fortinet-fw-backup
+Type: Network Device
+Operating System: FortiProxy 7.0.14
+
+OWNERSHIP & LOCATION
+----------------------
+Department: Network Operations
+Owner: Network Team
+Location: Auckland Office
+Criticality: HIGH
+
+NETWORK INFORMATION
+----------------------
+IP Address: 10.0.0.2
+MAC Address: 00:09:0F:09:00:02
+Internet Facing: Yes
+Status: Active
+Last Updated: 2026-02-26
+
+INSTALLED SOFTWARE
+----------------------
+
+1. Name: FortiProxy
+   Version: 7.0.14
+   Vendor: Fortinet
+   Installed: 2024-01-20
+
+COMPLIANCE FRAMEWORKS
+----------------------
+- PCI-DSS
+
+BACKUP STATUS
+----------------------
+Daily Config Backup
+
+SEARCH KEYWORDS
+----------------------
+Asset Type: Network Device
+Department: Network Operations
+Criticality Level: HIGH
+Installed Products: FortiProxy

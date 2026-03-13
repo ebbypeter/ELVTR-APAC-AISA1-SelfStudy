@@ -1,0 +1,44 @@
+ASSET INFORMATION
+----------------------
+Asset ID: SRV-MAIL-001
+Hostname: mail-exchange-01
+Type: Server
+Operating System: Windows Server 2019 1809
+
+OWNERSHIP & LOCATION
+----------------------
+Department: IT Operations
+Owner: Infrastructure Team
+Location: Wellington Data Center
+Criticality: CRITICAL
+
+NETWORK INFORMATION
+----------------------
+IP Address: 10.100.4.40
+MAC Address: 00:50:56:8A:2D:B1
+Internet Facing: Yes
+Status: Active
+Last Updated: 2026-02-22
+
+INSTALLED SOFTWARE
+----------------------
+
+1. Name: Microsoft Exchange Server
+   Version: 2019 CU14
+   Vendor: Microsoft
+   Installed: 2022-03-10
+
+COMPLIANCE FRAMEWORKS
+----------------------
+- HIPAA
+
+BACKUP STATUS
+----------------------
+Daily
+
+SEARCH KEYWORDS
+----------------------
+Asset Type: Server
+Department: IT Operations
+Criticality Level: CRITICAL
+Installed Products: Microsoft Exchange Server

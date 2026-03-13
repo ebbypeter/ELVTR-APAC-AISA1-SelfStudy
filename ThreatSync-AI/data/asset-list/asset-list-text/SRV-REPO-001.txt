@@ -1,0 +1,40 @@
+ASSET INFORMATION
+----------------------
+Asset ID: SRV-REPO-001
+Hostname: gitlab-server
+Type: Server
+Operating System: Ubuntu Linux 22.04 LTS
+
+OWNERSHIP & LOCATION
+----------------------
+Department: DevOps
+Owner: DevOps Team
+Location: AWS us-east-1 (Cloud)
+Criticality: HIGH
+
+NETWORK INFORMATION
+----------------------
+IP Address: 10.100.6.60
+MAC Address: N/A
+Internet Facing: No
+Status: Active
+Last Updated: 2026-02-24
+
+INSTALLED SOFTWARE
+----------------------
+
+1. Name: GitLab
+   Version: 16.8.1
+   Vendor: GitLab Inc
+   Installed: 2024-01-20
+
+BACKUP STATUS
+----------------------
+Daily + Snapshot
+
+SEARCH KEYWORDS
+----------------------
+Asset Type: Server
+Department: DevOps
+Criticality Level: HIGH
+Installed Products: GitLab

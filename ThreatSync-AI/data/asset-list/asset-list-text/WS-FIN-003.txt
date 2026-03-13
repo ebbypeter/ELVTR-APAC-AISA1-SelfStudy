@@ -1,0 +1,44 @@
+ASSET INFORMATION
+----------------------
+Asset ID: WS-FIN-003
+Hostname: ws-finance-02
+Type: Workstation
+Operating System: Windows 11 Pro 22H2
+
+OWNERSHIP & LOCATION
+----------------------
+Department: Finance
+Owner: Accounts Payable Manager
+Location: Wellington Office - Floor 3
+Criticality: HIGH
+
+NETWORK INFORMATION
+----------------------
+IP Address: 10.20.1.17
+MAC Address: 00:1B:44:11:3A:B9
+Internet Facing: No
+Status: Active
+Last Updated: 2026-02-19
+
+INSTALLED SOFTWARE
+----------------------
+
+1. Name: Microsoft Outlook
+   Version: 2019
+   Vendor: Microsoft
+   Installed: 2023-02-01
+
+COMPLIANCE FRAMEWORKS
+----------------------
+- PCI-DSS
+
+BACKUP STATUS
+----------------------
+Daily
+
+SEARCH KEYWORDS
+----------------------
+Asset Type: Workstation
+Department: Finance
+Criticality Level: HIGH
+Installed Products: Microsoft Outlook

@@ -1,0 +1,45 @@
+ASSET INFORMATION
+----------------------
+Asset ID: SRV-MON-001
+Hostname: prometheus-monitoring
+Type: Server
+Operating System: Ubuntu Linux 22.04 LTS
+
+OWNERSHIP & LOCATION
+----------------------
+Department: IT Operations
+Owner: SRE Team
+Location: AWS us-east-1 (Cloud)
+Criticality: MEDIUM
+
+NETWORK INFORMATION
+----------------------
+IP Address: 10.100.7.70
+MAC Address: N/A
+Internet Facing: No
+Status: Active
+Last Updated: 2026-02-25
+
+INSTALLED SOFTWARE
+----------------------
+
+1. Name: Prometheus
+   Version: 2.49.1
+   Vendor: Prometheus
+   Installed: 2024-01-10
+
+2. Name: Grafana
+   Version: 10.3.1
+   Vendor: Grafana Labs
+   Installed: 2024-01-10
+
+BACKUP STATUS
+----------------------
+Weekly
+
+SEARCH KEYWORDS
+----------------------
+Asset Type: Server
+Department: IT Operations
+Criticality Level: MEDIUM
+Installed Products: Prometheus, Grafana

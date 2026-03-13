@@ -1,0 +1,45 @@
+ASSET INFORMATION
+----------------------
+Asset ID: NET-FW-001
+Hostname: fortinet-fw-main
+Type: Network Device
+Operating System: FortiOS 7.0.12
+
+OWNERSHIP & LOCATION
+----------------------
+Department: Network Operations
+Owner: Network Team
+Location: Wellington Data Center - DMZ
+Criticality: CRITICAL
+
+NETWORK INFORMATION
+----------------------
+IP Address: 10.0.0.1
+MAC Address: 00:09:0F:09:00:01
+Internet Facing: Yes
+Status: Active
+Last Updated: 2026-02-26
+
+INSTALLED SOFTWARE
+----------------------
+
+1. Name: FortiOS
+   Version: 7.0.12
+   Vendor: Fortinet
+   Installed: 2023-06-15
+
+COMPLIANCE FRAMEWORKS
+----------------------
+- PCI-DSS
+- SOC2
+
+BACKUP STATUS
+----------------------
+Daily Config Backup
+
+SEARCH KEYWORDS
+----------------------
+Asset Type: Network Device
+Department: Network Operations
+Criticality Level: CRITICAL
+Installed Products: FortiOS
